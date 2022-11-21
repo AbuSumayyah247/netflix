@@ -23,6 +23,7 @@ img{
     padding: 7px 17px;
     text-decoration: none;
     color: white;
+    border-radius: 0.15em;
 }
 
 .netflix-logo{
@@ -46,6 +47,64 @@ img{
 }
 
 .first-sec{
-    background-color: brown;
     height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    }
+
+
+
+.first-sec .content{
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1
 }
+
+.first-sec .content h1 {
+        font-size: 3.125rem;
+        font-weight: 500;
+}
+
+.first-sec .content p {
+    font-size: 1.625rem;
+}
+
+.form-control label{
+        font-size: 1.2rem;
+            max-width: none;
+            padding-bottom: 20px;
+}
+
+.first-sec .content form .form-control .input-control button {
+    background-color: #e50909;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.first-sec .content form .form-control .input-control input {
+    background-color: White;
+    padding: 12px 100px;
+    }
+
+/* .first-sec .sec1-back-image{
+    background-size: cover;
+    position: absolute;
+
+}
+
+.first-sec .sec1-back-image img {
+  transform: none;
+object-fit: cover;
+
+} */
