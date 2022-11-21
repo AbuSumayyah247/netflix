@@ -9,21 +9,40 @@ img{
 }
 /* Header styling */
 
-header {
-    /* background: red; */
-       background: red;
-       position: fixed;
-       padding: 1rem;
-       background: transparent;
+/* .netflixlogo{
+        fill: hsl(81, 92%, 47%);
+        display: flex;
+} */
+
+.sign-btn{
+    background-color: #e50909;
+    float: right;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+    text-decoration: none;
+    color: white;
 }
 
-header .header-wrapper{
+.netflix-logo{
+    height: 36px;
+    width: 134px;
+    fill: #e50914;
+}
+
+.header-wrapper{
+      background-color: transparent;
+  }
+
+.header-child {
     display: flex;
-        justify-content: space-between;
-background-color: blue;
-width: 90%;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 90%;
     margin: 0 auto;
-    align-items: ;
+    padding: 1rem;
+    align-items: center;
 }
 
 .first-sec{
