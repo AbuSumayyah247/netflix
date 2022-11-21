@@ -1,0 +1,32 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+/* Header styling */
+
+header {
+    /* background: red; */
+       background: red;
+       position: fixed;
+       padding: 1rem;
+       background: transparent;
+}
+
+header .header-wrapper{
+    display: flex;
+        justify-content: space-between;
+background-color: blue;
+width: 90%;
+    margin: 0 auto;
+    align-items: ;
+}
+
+.first-sec{
+    background-color: brown;
+    height: 100vh;
+}
